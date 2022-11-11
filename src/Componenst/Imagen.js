@@ -1,11 +1,20 @@
 import React from "react";
 import imagenAstronauta from '../images/reverse.png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+
+
+
 const Imagen = () => {
   return(
     <div className="fondo" style={{ backgroundImage: "url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" }}>
       <div className="redes">
-        <a href=""></a>
+      <FontAwesomeIcon icon="fa-brands fa-github-alt" />
+      {/* <FontAwesomeIcon icon={faCoffee} className="white" /> */}
+        {/* <a><FontAwesomeIcon icon={faEnvelope} className="white"/></a> */}
       </div>
       <div className="foto">
         <img src={imagenAstronauta} alt="" className="astronauta"/>
