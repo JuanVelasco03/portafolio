@@ -11,8 +11,8 @@ const Information = () => {
           <h2 className="titulo">HOLA, MI NOMBRE ES  JUAN</h2>
         </div>
         <div>
-          <div class="line orange"></div>
-          <div class="line gray"></div>
+          <div className="line orange"></div>
+          <div className="line gray"></div>
         </div>
         <div className="left parrafo-content">
           <p className="parrafo">I am front-end engineer based in ho chi minh city</p>

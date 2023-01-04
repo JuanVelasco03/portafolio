@@ -4,7 +4,6 @@ const ViewLeft = () => {
   return (
     <div className="">
       <Information />
-      
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Imagen from "../Componenst/Imagen";
 
-const ViewRight = () => {
+const  ViewRight = () => {
   return (
     <div>
       <Imagen />
