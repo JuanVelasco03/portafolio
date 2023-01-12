@@ -1,11 +1,9 @@
 import './App.css';
 import Navbar from './Componenst/Navbar';
-// import Imagen from './Componenst/Imagen';
-// import ViewLeft from './views/ViewLeft';
-// import ViewRight from './views/ViewRight';
 import Home from './Componenst/Home';
-import Aboutme from './Componenst/Aboutme';
-import Skillset from './Componenst/Skillset';
+import Aboutme from './Componenst/about/Aboutme';
+import Skills from './Componenst/skills/Skill';
+import Portfolio from './Componenst/portfolio/Portfolio';
 
 
 function App() {
@@ -21,9 +19,13 @@ function App() {
       <div id="1">
         <Aboutme/>
       </div>
-      {/* <div id="2">
-        <Skillset/>
-      </div> */}
+      <div id='2'>
+        <Skills/>
+      </div>
+      <div id='3'>
+        <Portfolio/>
+      </div>
+
     </div>
   );
 }

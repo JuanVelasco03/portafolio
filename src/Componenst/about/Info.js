@@ -1,6 +1,6 @@
 import React from "react";
 import 'boxicons'
-import '../css/aboutme.css'
+import '../../css/aboutme.css'
 
 const Info = () => {
   return (

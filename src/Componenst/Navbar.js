@@ -12,7 +12,7 @@ const Navbar = () => {
     const element = document.getElementById(id)
 
     if(element){
-      const position = getOffset(element)?.top - 100
+      const position = getOffset(element)?.top - 65
       window.scroll({
         top: position, 
         left: 0, 
