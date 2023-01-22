@@ -1,0 +1,190 @@
+.project_container{
+  grid-template-columns: repeat(3, 400px);
+  column-gap: 3rem;
+  justify-content: center;
+}
+
+
+.project_content{
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.25rem 1.25rem;
+  border-radius: 1.25rem;
+  height: 380px;
+}
+
+.cards{
+  position: relative;
+  transform-style: preserve-3d; 
+  user-select: none;
+  cursor: pointer;
+
+  transition: transform 1000ms;
+
+}
+
+.cards:hover{
+  transform: rotateY(180deg);
+}
+
+.front,
+.back{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front{
+
+}
+
+.back{
+  transform: rotateY(180deg);
+}
+
+.project_image{
+  border-radius: 1.25rem;
+  border: 1px solid black;
+}
+
+.image_height{
+  height: 240px;
+}
+
+.project_title{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+
+.project_box{
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+  height: 250px;
+}
+
+.project_group{
+  display: grid;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.project_data{
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.project .bx-badge-check {
+  font-size: 1rem;
+  color: var(--title-color);
+}
+
+.project_name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
+
+}
+
+.project_level{
+  font-size: var(--tiny-font-size);
+}
+
+.titles{
+  margin-bottom: 40px;
+}
+
+.project_demo{
+  padding: 1rem 0 0 0;
+}
+
+.project_content a {
+  color: gray;
+}
+
+.probar{
+  margin-top: 100px;
+  position: inherit;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  
+  .project_container{
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+
+  .project_content{
+    height: 310px;
+  }
+
+  .project_box{
+    height: 200px;
+  }
+
+  .image_height {
+    height: 188px;
+  }
+
+
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+  .project_container{
+    grid-template-columns: 1fr;
+  }
+
+  .project_content{
+    padding: 1.5rem;
+  }
+
+  .project_content{
+    height: 310px;
+  }
+
+  .project_box{
+    height: 200px;
+  }
+
+  .image_height {
+    height: 188px;
+  }
+
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .project_box{
+    column-gap: 1.25rem;
+  }
+
+  .project_name{
+    font-size: var(--small-font-size);
+  }
+
+    .project_content{
+    height: auto;
+  }
+
+  .project_box{
+    height: 200px;
+  }
+
+  .image_height {
+    height: 188px;
+  }
+}
+
+

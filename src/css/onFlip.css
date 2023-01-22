@@ -1,0 +1,163 @@
+.project_container{
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 3rem;
+    justify-content: center;
+  }
+  
+  
+  .project_content{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.25rem 1.25rem;
+    border-radius: 1.25rem;
+    height: 100%;
+  }
+  
+  .cards{
+    position: relative;
+    transform-style: preserve-3d; 
+    user-select: none;
+    cursor: pointer;
+    transition: 150ms;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0))
+        translateY(var(--translate-y, 0));
+  }
+  
+  .cards:hover{
+    -translate-y: -2px;    
+  }
+
+  .cards.flip{
+    --rotate-y: 180deg;
+  }
+  
+  .cards .front,
+  .cards .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  
+  .cards .back{
+    transform: rotateY(180deg);
+  }
+  
+  .project_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+    border: 1px solid black;
+  }
+
+  
+  .project_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: start;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .project_box{
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+    height: 250px;
+  }
+  
+  .project_group{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+  }
+  
+  .project_data{
+    display: flex;
+    column-gap: 0.5rem;
+  }
+  
+  .project .bx-badge-check {
+    font-size: 1rem;
+    color: var(--title-color);
+  }
+  
+  .project_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+  
+  }
+  
+  .project_level{
+    font-size: var(--tiny-font-size);
+  }
+  
+  .titles{
+    margin-bottom: 40px;
+  }
+  
+  .project_demo{
+    padding: 1rem 0 0 0;
+  }
+  
+  .project_content a {
+    color: gray;
+    top: 10px;
+    position: relative;
+  }
+  
+  .probar{
+    margin-top: 100px;
+    position: inherit;
+  }
+
+  
+  
+  
+  /*=============== BREAKPOINTS ===============*/
+
+  @media screen and (max-width: 1310px) {
+    .project_container{
+      grid-template-columns: repeat(2, 400px);
+
+    }
+  }
+
+  /* For large devices */
+  @media screen and (max-width: 992px) {
+    .project_container{
+      grid-template-columns: 400px;
+      row-gap: 2rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 576px) {
+    .project_container{
+      grid-template-columns: 370px;
+    }
+  
+    .project_content{
+      padding: 1.5rem;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .project_container{
+      grid-template-columns: max-content;
+    }
+
+    .project_box{
+      column-gap: 1.25rem;
+    }
+  
+    .project_name{
+      font-size: var(--small-font-size);
+    }
+  }
+  
+  
