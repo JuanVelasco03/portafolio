@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.ca0897c0.css",
+    "main.js": "/portafolio/static/js/main.f8360e90.js",
+    "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
+    "static/media/fondo.jpg": "/portafolio/static/media/fondo.c44ed04c57064dd1b4d5.jpg",
+    "static/media/reverse.png": "/portafolio/static/media/reverse.cd0c9534f6ecfe194749.png",
+    "static/media/Carrito de compras.JPG": "/portafolio/static/media/Carrito de compras.5499a4b765e9b0360f1c.JPG",
+    "static/media/PersonajesRickAndMorty.JPG": "/portafolio/static/media/PersonajesRickAndMorty.0542e57d78a1582231b9.JPG",
+    "static/media/GDNREACT.JPG": "/portafolio/static/media/GDNREACT.e0de443d0b849faf05c8.JPG",
+    "static/media/GDNPHP.JPG": "/portafolio/static/media/GDNPHP.c92584e1357f149b5738.JPG",
+    "static/media/GDI.JPG": "/portafolio/static/media/GDI.ad262c856cda906446e5.JPG",
+    "static/media/ClonMinecraft.JPG": "/portafolio/static/media/ClonMinecraft.55b675696b0393b81b80.JPG",
+    "index.html": "/portafolio/index.html",
+    "main.ca0897c0.css.map": "/portafolio/static/css/main.ca0897c0.css.map",
+    "main.f8360e90.js.map": "/portafolio/static/js/main.f8360e90.js.map",
+    "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca0897c0.css",
+    "static/js/main.f8360e90.js"
+  ]
+}

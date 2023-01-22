@@ -1,13 +1,15 @@
-.foto{
+.fondo{
   display: flex;
   justify-content: center;
+  align-items: center; 
   width: 100%;
-  height: 13%;
-} 
+  height: 100%;
+  padding: 20%;
+}
+
 
 .astronauta{
-  width: 60%;
-  height: 50%;
-  align-self: center;
-  margin-top: 18%;
+  width: 100%;
+  height: 100%;
 }
+
