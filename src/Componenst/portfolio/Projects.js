@@ -36,25 +36,25 @@ const Projects = () => {
 
               <div className='project_group'>
                 <div className='project_data yellow'>
-                  <h3 className='project_name'>JavaScript</h3>
+                  <h3 className='project_name'>HTML</h3>
                 </div>
 
                 <div className='project_data blue'>
-                  <h3 className='project_name'>React</h3>
+                  <h3 className='project_name'>CSS</h3>
                 </div>
 
-                <div className='project_data color_orange'>
-                  <h3 className='project_name'>Three js</h3>
+                <div className='project_data light_blue center'>
+                  <h3 className='project_name'>JAVASCRIPT</h3>
                 </div>
               </div>
 
               <div className='project_group'>
-                <div className='project_data light_blue'>
-                  <h3 className='project_name'>Css</h3>
+                <div className='project_data other_blue'>
+                  <h3 className='project_name'>REACT</h3>
                 </div>
 
-                <div className='project_data other_blue'>
-                  <h3 className='project_name'>Html</h3>
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>THREEJS</h3>
                 </div>
               </div>
 
@@ -79,6 +79,11 @@ const Projects = () => {
 
                 <div className='project_data blue'>
                   <h3 className='project_name'>CSS</h3>
+                </div>
+
+                
+                <div className='project_data blue'>
+                  <h3 className='project_name'>JSON</h3>
                 </div>
               </div>
 
@@ -108,31 +113,32 @@ const Projects = () => {
             <div className='back' onMouseLeave={() => {setCards({...cards, rickymorty: false})}}>
             <div className='project_group'>
                 <div className='project_data yellow'>
-                  <h3 className='project_name'>JavaScript</h3>
+                  <h3 className='project_name'>HTML</h3>
                 </div>
 
                 <div className='project_data blue'>
-                  <h3 className='project_name'>React</h3>
+                  <h3 className='project_name'>CSS</h3>
                 </div>
 
                 <div className='project_data color_orange'>
-                  <h3 className='project_name'>Three js</h3>
+                  <h3 className='project_name'>JAVASCRIPT</h3>
                 </div>
               </div>
 
               <div className='project_group'>
                 <div className='project_data light_blue'>
-                  <h3 className='project_name'>Css</h3>
+                  <h3 className='project_name'>REACT</h3>
                 </div>
 
                 <div className='project_data other_blue'>
-                  <h3 className='project_name'>Html</h3>
+                  <h3 className='project_name'>AXIOS</h3>
                 </div>
 
-                <div className='project_data other_orange'>
-                  <h3 className='project_name'>Html</h3>
+                <div className='project_data yellow'>
+                  <h3 className='project_name'>BOOTSTRAP</h3>
                 </div>
               </div>
+              
             </div>
           </div>
           <a className='project_links' href="https://juanvelasco03.github.io/rickandmorty/" target="_blank" rel="noreferrer">Probar ➞</a>
@@ -149,29 +155,29 @@ const Projects = () => {
             <div className='back' onMouseLeave={() => {setCards({...cards, gdi: false})}}>
             <div className='project_group'>
                 <div className='project_data yellow'>
-                  <h3 className='project_name'>JavaScript</h3>
+                  <h3 className='project_name'>REACT</h3>
                 </div>
 
                 <div className='project_data blue'>
-                  <h3 className='project_name'>React</h3>
+                  <h3 className='project_name'>BOOTSTRAP</h3>
                 </div>
 
                 <div className='project_data color_orange'>
-                  <h3 className='project_name'>Three js</h3>
+                  <h3 className='project_name'>AXIOS</h3>
                 </div>
               </div>
 
               <div className='project_group'>
                 <div className='project_data light_blue'>
-                  <h3 className='project_name'>Css</h3>
+                  <h3 className='project_name'>MONGODB</h3>
                 </div>
 
                 <div className='project_data other_blue'>
-                  <h3 className='project_name'>Html</h3>
+                  <h3 className='project_name'>NODEJS</h3>
                 </div>
 
                 <div className='project_data other_orange'>
-                  <h3 className='project_name'>Html</h3>
+                  <h3 className='project_name'>EXPRESS</h3>
                 </div>
               </div>
             </div>
@@ -190,30 +196,32 @@ const Projects = () => {
             <div className='back' onMouseLeave={() => {setCards({...cards, gnphp: false})}}>
             <div className='project_group'>
                 <div className='project_data yellow'>
-                  <h3 className='project_name'>JavaScript</h3>
+                  <h3 className='project_name'>HTML</h3>
                 </div>
 
                 <div className='project_data blue'>
-                  <h3 className='project_name'>React</h3>
+                  <h3 className='project_name'>CSS</h3>
                 </div>
 
                 <div className='project_data color_orange'>
-                  <h3 className='project_name'>Three js</h3>
+                  <h3 className='project_name'>BOOTSTRAP</h3>
                 </div>
               </div>
 
               <div className='project_group'>
+
+                <div className='project_data other_orange'>
+                  <h3 className='project_name'>JAVASCRIPT</h3>
+                </div>
+
                 <div className='project_data light_blue'>
-                  <h3 className='project_name'>Css</h3>
+                  <h3 className='project_name'>MYSQL</h3>
                 </div>
 
                 <div className='project_data other_blue'>
-                  <h3 className='project_name'>Html</h3>
+                  <h3 className='project_name'>PHP</h3>
                 </div>
 
-                <div className='project_data other_orange'>
-                  <h3 className='project_name'>Html</h3>
-                </div>
               </div>
             </div>
           </div>
@@ -231,29 +239,30 @@ const Projects = () => {
             <div className='back' onMouseLeave={() => {setCards({...cards, gnreact: false})}}>
             <div className='project_group'>
                 <div className='project_data yellow'>
-                  <h3 className='project_name'>JavaScript</h3>
+                  <h3 className='project_name'>REACT</h3>
                 </div>
 
                 <div className='project_data blue'>
-                  <h3 className='project_name'>React</h3>
+                  <h3 className='project_name'>BOOTSTRAP</h3>
                 </div>
 
-                <div className='project_data color_orange'>
-                  <h3 className='project_name'>Three js</h3>
+                <div className='project_data other_blue'>
+                  <h3 className='project_name'>ASP .NETCORE</h3>
                 </div>
+
               </div>
 
               <div className='project_group'>
                 <div className='project_data light_blue'>
-                  <h3 className='project_name'>Css</h3>
-                </div>
-
-                <div className='project_data other_blue'>
-                  <h3 className='project_name'>Html</h3>
+                  <h3 className='project_name'>SQLSERVER</h3>
                 </div>
 
                 <div className='project_data other_orange'>
-                  <h3 className='project_name'>Html</h3>
+                  <h3 className='project_name'>AXIOS</h3>
+                </div>
+
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>ENTITY FRAMEWORK</h3>
                 </div>
               </div>
             </div>
