@@ -206,6 +206,11 @@ img {
     width: 22px;
     height: 22px;
   }
+
+  .row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 
 /* For medium devices */
