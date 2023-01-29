@@ -33,7 +33,31 @@ const Projects = () => {
               <img src={clonMinecraftImg} alt="" className='project_image'/>
             </div>
             <div className='back' onMouseLeave={() => {setCards({...cards, minecraft: false})}}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatum!</p>
+
+              <div className='project_group'>
+                <div className='project_data yellow'>
+                  <h3 className='project_name'>JavaScript</h3>
+                </div>
+
+                <div className='project_data blue'>
+                  <h3 className='project_name'>React</h3>
+                </div>
+
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>Three js</h3>
+                </div>
+              </div>
+
+              <div className='project_group'>
+                <div className='project_data light_blue'>
+                  <h3 className='project_name'>Css</h3>
+                </div>
+
+                <div className='project_data other_blue'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+              </div>
+
             </div>
           </div>
           <a className='project_links' href="https://juanvelasco03.github.io/minecraft-clone/" target="_blank" rel="noreferrer">Probar ➞</a>
@@ -48,7 +72,26 @@ const Projects = () => {
               <img src={carritoComprasImg} alt="" className='project_image'/>
             </div>
             <div className='back' onMouseLeave={() => {setCards({...cards, carrito: false})}} >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque quod harum dignissimos magnam necessitatibus perspiciatis voluptatum voluptates error voluptate.
+              <div className='project_group'>
+                <div className='project_data yellow'>
+                  <h3 className='project_name'>HTML</h3>
+                </div>
+
+                <div className='project_data blue'>
+                  <h3 className='project_name'>CSS</h3>
+                </div>
+              </div>
+
+              <div className='project_group'>
+                <div className='project_data light_blue'>
+                  <h3 className='project_name'>Bootstrap</h3>
+                </div>
+
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>JavaScript</h3>
+                </div>
+              </div>
+            
             </div>
           </div>
           <a className='project_links' href="https://eager-roentgen-03386e.netlify.app/" target="_blank" rel="noreferrer">Probar ➞</a>
@@ -63,7 +106,33 @@ const Projects = () => {
               <img src={personajesRAMImg} alt="" className='project_image'/>
             </div>
             <div className='back' onMouseLeave={() => {setCards({...cards, rickymorty: false})}}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque quod harum dignissimos magnam necessitatibus perspiciatis voluptatum voluptates error voluptate.
+            <div className='project_group'>
+                <div className='project_data yellow'>
+                  <h3 className='project_name'>JavaScript</h3>
+                </div>
+
+                <div className='project_data blue'>
+                  <h3 className='project_name'>React</h3>
+                </div>
+
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>Three js</h3>
+                </div>
+              </div>
+
+              <div className='project_group'>
+                <div className='project_data light_blue'>
+                  <h3 className='project_name'>Css</h3>
+                </div>
+
+                <div className='project_data other_blue'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+
+                <div className='project_data other_orange'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+              </div>
             </div>
           </div>
           <a className='project_links' href="https://juanvelasco03.github.io/rickandmorty/" target="_blank" rel="noreferrer">Probar ➞</a>
@@ -78,7 +147,33 @@ const Projects = () => {
               <img src={gestorImagenesImg} alt="" className='project_image'/>
             </div>
             <div className='back' onMouseLeave={() => {setCards({...cards, gdi: false})}}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque quod harum dignissimos magnam necessitatibus perspiciatis voluptatum voluptates error voluptate.
+            <div className='project_group'>
+                <div className='project_data yellow'>
+                  <h3 className='project_name'>JavaScript</h3>
+                </div>
+
+                <div className='project_data blue'>
+                  <h3 className='project_name'>React</h3>
+                </div>
+
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>Three js</h3>
+                </div>
+              </div>
+
+              <div className='project_group'>
+                <div className='project_data light_blue'>
+                  <h3 className='project_name'>Css</h3>
+                </div>
+
+                <div className='project_data other_blue'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+
+                <div className='project_data other_orange'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+              </div>
             </div>
           </div>
           <a className='project_links' href="/#">Probar ➞</a>
@@ -93,7 +188,33 @@ const Projects = () => {
               <img src={gestorNominaPHPImg} alt="" className='project_image '/>
             </div>
             <div className='back' onMouseLeave={() => {setCards({...cards, gnphp: false})}}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque quod harum dignissimos magnam necessitatibus perspiciatis voluptatum voluptates error voluptate.
+            <div className='project_group'>
+                <div className='project_data yellow'>
+                  <h3 className='project_name'>JavaScript</h3>
+                </div>
+
+                <div className='project_data blue'>
+                  <h3 className='project_name'>React</h3>
+                </div>
+
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>Three js</h3>
+                </div>
+              </div>
+
+              <div className='project_group'>
+                <div className='project_data light_blue'>
+                  <h3 className='project_name'>Css</h3>
+                </div>
+
+                <div className='project_data other_blue'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+
+                <div className='project_data other_orange'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+              </div>
             </div>
           </div>
           <a className='project_links' href="/#">Probar ➞</a>
@@ -108,7 +229,33 @@ const Projects = () => {
               <img src={gestorNominaReactImg} alt="" className='project_image'/>
             </div>
             <div className='back' onMouseLeave={() => {setCards({...cards, gnreact: false})}}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque quod harum dignissimos magnam necessitatibus perspiciatis voluptatum voluptates error voluptate.
+            <div className='project_group'>
+                <div className='project_data yellow'>
+                  <h3 className='project_name'>JavaScript</h3>
+                </div>
+
+                <div className='project_data blue'>
+                  <h3 className='project_name'>React</h3>
+                </div>
+
+                <div className='project_data color_orange'>
+                  <h3 className='project_name'>Three js</h3>
+                </div>
+              </div>
+
+              <div className='project_group'>
+                <div className='project_data light_blue'>
+                  <h3 className='project_name'>Css</h3>
+                </div>
+
+                <div className='project_data other_blue'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+
+                <div className='project_data other_orange'>
+                  <h3 className='project_name'>Html</h3>
+                </div>
+              </div>
             </div>
           </div>
           <a className='project_links' href="/#">Probar ➞</a>

@@ -6,6 +6,7 @@ const Backend = () => {
     <h3 className="skills_title">Desarrollo Backend</h3>
 
     <div className="skills_box">
+      
       <div className="skills_group">
         <div className='skills_data'>
           <box-icon name='badge-check'></box-icon>
