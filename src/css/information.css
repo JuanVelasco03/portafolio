@@ -54,6 +54,13 @@
   z-index: 3;
 }
 
+@media screen and (max-width: 576px) {
+  .parrafo-content{
+    width: 100%;
+  }
+
+}
+
 
 
 

@@ -89,4 +89,8 @@
   .skills_name{
     font-size: var(--small-font-size);
   }
+
+  .skills{
+    margin-top: 100px;
+  }
 }

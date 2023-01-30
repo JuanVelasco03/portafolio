@@ -13,7 +13,9 @@ const Aboutme = () => {
         </div>
         <div className="about_container container grid">
           <Info />
-          <p className="about_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque cupiditate architecto minus sed, necessitatibus, facere exercitationem magnam, quas dolores ipsum aperiam voluptates animi possimus sit repellat voluptate. Quis, numquam!</p>
+          <div>
+           <p className="about_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque cupiditate architecto minus sed, necessitatibus, facere exercitationem magnam, quas dolores ipsum aperiam voluptates animi possimus sit repellat voluptate. Quis, numquam!</p>
+          </div>
         </div>
       </div>
     </section>

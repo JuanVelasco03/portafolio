@@ -229,6 +229,23 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .fondo{
+    display: none;
+  }
+
+  .content-right{
+    display: none;
+  
+  }
+
+  .row{
+    display: flex;
+  }
+
+  .parrafo-content{
+    width: 100%;
+  }
+
 }
 
 /* For small devices */
@@ -240,5 +257,18 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+
+  .fondo{
+    display: none;
+  }
+
+  .content-right{
+    display: none;
+  
+  }
+
+  .row{
+    display: flex;
   }
 }

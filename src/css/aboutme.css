@@ -98,6 +98,10 @@
   .about_description{
     padding: 0;
   }
+
+  .about {
+    margin-top: 40px;
+  }
 }
 
 /* For small devices */
