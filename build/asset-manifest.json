@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.2397f0a6.css",
-    "main.js": "/portafolio/static/js/main.93bcb62b.js",
+    "main.css": "/portafolio/static/css/main.d013ce4f.css",
+    "main.js": "/portafolio/static/js/main.46ce4a52.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/fondo.jpg": "/portafolio/static/media/fondo.c44ed04c57064dd1b4d5.jpg",
     "static/media/reverse.png": "/portafolio/static/media/reverse.cd0c9534f6ecfe194749.png",
@@ -12,12 +12,12 @@
     "static/media/GDI.JPG": "/portafolio/static/media/GDI.ad262c856cda906446e5.JPG",
     "static/media/ClonMinecraft.JPG": "/portafolio/static/media/ClonMinecraft.55b675696b0393b81b80.JPG",
     "index.html": "/portafolio/index.html",
-    "main.2397f0a6.css.map": "/portafolio/static/css/main.2397f0a6.css.map",
-    "main.93bcb62b.js.map": "/portafolio/static/js/main.93bcb62b.js.map",
+    "main.d013ce4f.css.map": "/portafolio/static/css/main.d013ce4f.css.map",
+    "main.46ce4a52.js.map": "/portafolio/static/js/main.46ce4a52.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2397f0a6.css",
-    "static/js/main.93bcb62b.js"
+    "static/css/main.d013ce4f.css",
+    "static/js/main.46ce4a52.js"
   ]
 }
