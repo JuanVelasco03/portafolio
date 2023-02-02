@@ -98,8 +98,8 @@
   .project_demo{
     padding: 1rem 0 0 0;
   }
-  
-  .project_content a {
+
+  .project_links{
     color: gray;
     top: 10px;
     position: relative;
@@ -221,10 +221,7 @@
     .back{
       column-gap: 1rem;
       padding: 2rem 1rem;
-
     }
-
-
   }
   
 

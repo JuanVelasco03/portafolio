@@ -8,9 +8,20 @@ import {clonMinecraftImg,
   gestorNominaPHPImg,
   gestorNominaReactImg,
   personajesRAMImg} from './images/images'
+import ModalProjects from './ModalProjects'
 
 
 const Projects = () => {
+
+  const initialState = {
+    "minecraft": false,
+    "carrito": false,
+    "gdi": false,
+    "gnphp": false,
+    "gnreact": false,
+    "rickymorty": false
+  }
+
   const [cards, setCards] = useState({
     "minecraft": false,
     "carrito": false,
@@ -20,10 +31,12 @@ const Projects = () => {
     "rickymorty": false
   })
 
+  console.log(initialState);
+
 
   return (
-    <div className="project_container container grid">
-    
+    <div className="project_container container grid">       
+
         <div className="project_content">  
           <div className='project_demo'>
             <h3 className="project_title">Clon Minecraft </h3> 
@@ -182,7 +195,10 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <a className='project_links' href="/#">Probar ➞</a>
+          
+         <div className='project_links'>
+          <ModalProjects />
+         </div>
         </div>
 
         <div className="project_content">  
@@ -269,6 +285,7 @@ const Projects = () => {
           </div>
           <a className='project_links' href="/#">Probar ➞</a>
         </div>
+
     
     </div>
   )
