@@ -178,7 +178,7 @@
   
   /*=============== BREAKPOINTS ===============*/
 
-  @media screen and (max-width: 1310px) {
+  @media screen and (max-width: 1400px) {
     .project_container{
       grid-template-columns: repeat(2, 400px);
 

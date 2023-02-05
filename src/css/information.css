@@ -18,8 +18,12 @@
   width: 100%;
 }
 
+.left{
+  width: 100%;
+}
+
 .parrafo-content{
-  width: 50%;
+  width: 60%;
 }
 
 .titulo{

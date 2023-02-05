@@ -10,18 +10,27 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: "70%",
+  width: "60%",
   height: "70%",
-  bgcolor: 'background.paper',
+  bgcolor: '#eef1f6',
   border: '2px solid #000',
   boxShadow: 24,
-  p: 4,
+  p: 2,
+  borderRadius: '10px'
 };
+
 
 const ModalProjects = () => {
   const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const [playing, setPlaying] = useState(false)
+  const handleOpen = () => {
+    setOpen(true);
+    setPlaying(true)
+  }
+  const handleClose = () => {
+    setOpen(false)
+    setPlaying(false)
+  };
 
   return (
     <div>
@@ -35,10 +44,11 @@ const ModalProjects = () => {
       >
         <Box sx={style}>
           <ReactPlayer 
-            url='https://www.youtube.com/watch?v=pLBuFxMYkx8'
+            url='https://music.youtube.com/watch?v=E6hq7sCwmU0&list=RDAMVML46JhW3LDb4'
             width='100%'
             height='100%'
             controls
+            playing={playing}
           />
         </Box>
       </Modal>
