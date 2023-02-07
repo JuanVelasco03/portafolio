@@ -1,9 +1,10 @@
 import * as React from 'react';
 import {useState} from 'react';
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
+import CarouselGdi from './CarouselGdi'
 
 const style = {
   position: 'absolute',
@@ -34,7 +35,7 @@ const ModalProjects = () => {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Ver video del proyecto</Button>
+      <Button onClick={handleOpen}>Ver imagenes del proyecto</Button>
       <Modal
         keepMounted
         open={open}
@@ -43,13 +44,14 @@ const ModalProjects = () => {
         aria-describedby="keep-mounted-modal-description"
       >
         <Box sx={style}>
-          <ReactPlayer 
+          {/* <ReactPlayer 
             url='https://music.youtube.com/watch?v=E6hq7sCwmU0&list=RDAMVML46JhW3LDb4'
             width='100%'
             height='100%'
             controls
             playing={playing}
-          />
+          /> */}
+          <CarouselGdi/>
         </Box>
       </Modal>
     </div>

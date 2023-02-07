@@ -1,0 +1,5 @@
+export {default as login} from './Captura.JPG'
+export {default as Img1} from './1.JPG'
+export {default as Img2} from './2.JPG'
+export {default as Img3} from './3.JPG'
+export {default as Img4} from './4.JPG'
