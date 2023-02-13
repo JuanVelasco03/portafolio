@@ -1,4 +1,39 @@
+.carousel_image{
+  width: 100%;
+  height: 66vh;
+}
 
+.carousel_title{
+  padding: 0.5%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .carousel_image{
+    height: 56vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .carousel_image{
+    height: 42vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+.carousel_image{
+  height: 30vh;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .carousel_image{
+  height: 17vh;
+
+  }
+}
 
 
 

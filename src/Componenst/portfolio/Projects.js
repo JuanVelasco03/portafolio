@@ -197,7 +197,7 @@ const Projects = () => {
           </div>
           
          <div className='project_links'>
-          <ModalProjects />
+            <ModalProjects />
          </div>
         </div>
 

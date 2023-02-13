@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, Button } from '@mui/material'
+import { Paper} from '@mui/material'
 
 function Item({item})
 {
@@ -8,8 +8,10 @@ function Item({item})
   console.log(item)
     return (
         <Paper>
-          <img src={loadImage(item.image)} alt="img" style={{width:"100%", height: "60vh"}}/>
-            <h3>{item.title}</h3>
+          <div>
+           <img src={loadImage(item.image)} alt="img" className="carousel_image" />
+          </div>
+          <h3 className='carousel_title'>{item.title}</h3>
         </Paper>
     )
 }
