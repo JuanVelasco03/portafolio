@@ -8,7 +8,10 @@ import {clonMinecraftImg,
   gestorNominaPHPImg,
   gestorNominaReactImg,
   personajesRAMImg} from './images/images'
-import ModalProjects from './ModalProjects'
+  import ModalGdi from './modales/ModalGdi'
+  import ModalGdnr from './modales/ModalGdnr'
+
+
 
 
 const Projects = () => {
@@ -31,7 +34,6 @@ const Projects = () => {
     "rickymorty": false
   })
 
-  console.log(initialState);
 
 
   return (
@@ -197,7 +199,7 @@ const Projects = () => {
           </div>
           
          <div className='project_links'>
-            <ModalProjects />
+            <ModalGdi />
          </div>
         </div>
 
@@ -241,7 +243,10 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <a className='project_links' href="/#">Probar ➞</a>
+
+          <div className='project_links'>
+            <ModalGdnr />
+         </div>
         </div>
 
         <div className="project_content">  

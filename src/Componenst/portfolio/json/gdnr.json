@@ -1,37 +1,56 @@
 [
-  {
-    "id":1,
-    "image":"Home.JPG",
-    "title": "Login"
-  },
-  {
-    "id":2,
-    "image":"1.JPG",
-    "title": "Gestor Administradores"
-  },
-  {
-    "id":3,
-    "image":"2.JPG",
-    "title": "Gestor Slides"
-  },
-  {
-    "id":4,
-    "image":"3.JPG",
-    "title": "Gestor Glaeria"
-  },
-  {
-    "id":5,
-    "image":"4.JPG",
-    "title": "Gestor Articulos"
-  },
-  {
-    "id":6,
-    "image":"5.JPG",
-    "title": "Gestor Articulos"
-  },
-  {
-    "id":5,
-    "image":"4.JPG",
-    "title": "Gestor Articulos"
-  }
-]
+      {
+        "folder": "ImgGdnr",
+        "id": 1,
+        "image":"gdt.JPG",
+        "title": "Gestor Administradores"
+      },
+      {
+         "folder": "ImgGdnr",
+        "id": 2,
+        "image":"gdn.JPG",
+        "title": "Gestor Slides"
+      },
+      {
+         "folder": "ImgGdnr",
+        "id": 3,
+        "image":"gda.JPG",
+        "title": "Gestor Glaeria"
+      },
+      {
+         "folder": "ImgGdnr",
+        "id": 4,
+        "image":"gdv.JPG",
+        "title": "Gestor Articulos"
+      },
+      { "folder": "ImgGdnr",
+        "id": 5,
+        "image":"gdu.JPG",
+        "title": "Gestor Articulos"
+      },
+      { "folder": "ImgGdnr",
+        "id": 6,
+        "image":"home2.JPG",
+        "title": "Gestor Articulos"
+      },
+      { "folder": "ImgGdnr",
+        "id": 7,
+        "image":"cdp.JPG",
+        "title": "Gestor Articulos"
+      },
+      { "folder": "ImgGdnr",
+        "id": 8,
+        "image":"cmn.JPG",
+        "title": "Gestor Articulos"
+      },
+      { "folder": "ImgGdnr",
+        "id": 9,
+        "image":"cmv.JPG",
+        "title": "Gestor Articulos"
+      },
+      { "folder": "ImgGdnr",
+        "id": 10,
+        "image":"cma.JPG",
+        "title": "Gestor Articulos"
+      }
+    ]

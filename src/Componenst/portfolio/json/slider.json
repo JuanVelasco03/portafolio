@@ -1,25 +1,30 @@
 [
   {
+    "folder": "ImgGdi",
     "id":1,
     "image":"Captura.JPG",
     "title": "Login"
   },
   {
+    "folder": "ImgGdi",
     "id":2,
     "image":"1.JPG",
     "title": "Gestor Administradores"
   },
   {
+    "folder": "ImgGdi",
     "id":3,
     "image":"2.JPG",
     "title": "Gestor Slides"
   },
   {
+    "folder": "ImgGdi",
     "id":4,
     "image":"3.JPG",
     "title": "Gestor Glaeria"
   },
   {
+    "folder": "ImgGdi",
     "id":5,
     "image":"4.JPG",
     "title": "Gestor Articulos"

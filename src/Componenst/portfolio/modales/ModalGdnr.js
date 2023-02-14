@@ -3,9 +3,11 @@ import {useState} from 'react';
 // import ReactPlayer from 'react-player'
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-import CarouselGdi from './CarouselGdi'
+import gdnr from '../json/gdnr.json'
+import CarouselImg from '../CarouselImg'
 
-const ModalProjects = () => {
+
+const ModalGdnr = () => {
   const [open, setOpen] = useState(false);
   const [playing, setPlaying] = useState(false)
   const handleOpen = () => {
@@ -29,11 +31,11 @@ const ModalProjects = () => {
         className='modal'
       >
         <div className='box'>
-          <CarouselGdi/>
+          <CarouselImg object={gdnr}/>
         </div>
       </Modal>
     </div>
   );
 }
 
-export default ModalProjects;
+export default ModalGdnr;

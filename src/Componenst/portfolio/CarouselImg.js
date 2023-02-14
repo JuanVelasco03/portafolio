@@ -3,17 +3,16 @@ import Carousel from 'react-material-ui-carousel'
 import Item from './Item'
 
 import '../../css/carousel.css'
-import slider from './slider.json'
 
-const CarouselGdn = () => {
+const CarouselImg = (props) => {
   return (
       <Carousel className='carousel'>
         {
-          slider.map(item => <Item key={item} item={item} /> )
+          props.object.map(item => <Item key={item} item={item} folder={item} /> )
         }
       </Carousel>
   )
 }
 
 
-export default CarouselGdn
+export default CarouselImg;
