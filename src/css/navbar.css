@@ -8,7 +8,7 @@
   box-shadow: 0 0 10px 1px;
 }
 
-.menu{
+.navbar{
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -78,6 +78,10 @@
   transform: scale(1.3, 1.3);
 }
 
+.nav_button{
+  display: none;
+}
+
 
 
  /*=============== BREAKPOINTS ===============*/
@@ -94,9 +98,48 @@
 
 }
 
+@media screen and (max-width: 500px) {
+  .navbar{
+    padding: 10px;
+  }
+
+  .nav_button{
+    display: flex;
+  }
+
+
+  .menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+  }
+
+  .menu.isActive{
+    height: 30vh;
+    opacity: 1;
+  }
+
+  .none{
+    display: none;
+  }
+
+  .list{
+    flex-direction: column;
+  }
+
+  .container-menu{
+    height: auto;
+    width: 100%;
+  }
+}
+
 /* For small devices */
 @media screen and (max-width: 350px) {
-
 }
 
 
