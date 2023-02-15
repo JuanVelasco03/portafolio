@@ -1,60 +1,60 @@
 [  
   {
-    "folder": "ImgGdnr",
+    "folder": "ImgGdns",
     "id": 1,
     "image":"home.JPG",
     "title": "Bienvenida usuario administrador"
   },
   {
-    "folder": "ImgGdnr",
+    "folder": "ImgGdns",
     "id": 2,
     "image":"gdt.JPG",
     "title": "Gestor trabajadores"
   },
   {
-      "folder": "ImgGdnr",
+      "folder": "ImgGdns",
     "id": 3,
     "image":"gdn.JPG",
     "title": "Gestor de nominas"
   },
   {
-      "folder": "ImgGdnr",
+      "folder": "ImgGdns",
     "id": 4,
     "image":"gda.JPG",
     "title": "Gestor de horarios"
   },
   {
-      "folder": "ImgGdnr",
+      "folder": "ImgGdns",
     "id": 5,
     "image":"gdv.JPG",
     "title": "Gestor de vacaciones"
   },
-  { "folder": "ImgGdnr",
+  { "folder": "ImgGdns",
     "id": 6,
     "image":"gdu.JPG",
     "title": "Gestor de usuarios"
   },
-  { "folder": "ImgGdnr",
+  { "folder": "ImgGdns",
     "id": 7,
     "image":"home2.JPG",
     "title": "Bienvenida usuario trabajador"
   },
-  { "folder": "ImgGdnr",
+  { "folder": "ImgGdns",
     "id": 8,
     "image":"cdp.JPG",
     "title": "Consultar mis datos personales"
   },
-  { "folder": "ImgGdnr",
+  { "folder": "ImgGdns",
     "id": 9,
     "image":"cmn.JPG",
     "title": "Consultar mi historial de nomina"
   },
-  { "folder": "ImgGdnr",
+  { "folder": "ImgGdns",
     "id": 10,
     "image":"cmv.JPG",
     "title": "Consultar mi historial de vacaiones"
   },
-  { "folder": "ImgGdnr",
+  { "folder": "ImgGdns",
     "id": 11,
     "image":"cma.JPG",
     "title": "Consultar mi historial de asistencias"

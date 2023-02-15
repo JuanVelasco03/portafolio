@@ -4,7 +4,7 @@ import slider from './json/slider.json'
 
 function Item({item})
 {
-  const loadImage = (imageName) => (require(`./${item.folder}/${imageName}`))
+  const loadImage = (imageName) => (require(`./images/${item.folder}/${imageName}`))
   return (
         <Paper>
           <div>

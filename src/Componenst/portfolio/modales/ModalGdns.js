@@ -3,11 +3,11 @@ import {useState} from 'react';
 // import ReactPlayer from 'react-player'
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-import gdnr from '../json/gdnr.json'
 import CarouselImg from '../CarouselImg'
+import gdns from '../json/gdns.json'
 
 
-const ModalGdnr = () => {
+const ModalGdns = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => {
     setOpen(true);
@@ -28,11 +28,11 @@ const ModalGdnr = () => {
         className='modal'
       >
         <div className='box'>
-          <CarouselImg object={gdnr}/>
+          <CarouselImg object={gdns}/>
         </div>
       </Modal>
     </div>
   );
 }
 
-export default ModalGdnr;
+export default ModalGdns;

@@ -7,9 +7,10 @@ import {clonMinecraftImg,
   gestorImagenesImg,
   gestorNominaPHPImg,
   gestorNominaReactImg,
-  personajesRAMImg} from './images/images'
+  personajesRAMImg} from './images/portfolio/images'
   import ModalGdi from './modales/ModalGdi'
   import ModalGdnr from './modales/ModalGdnr'
+  import ModalGdns from './modales/ModalGdns'
 
 
 
@@ -288,10 +289,10 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <a className='project_links' href="/#">Probar ➞</a>
+          <div className='project_links'>
+            <ModalGdns />
+          </div>
         </div>
-
-    
     </div>
   )
 }

@@ -1,6 +1,7 @@
 .carousel_image{
   width: 100%;
   height: 66vh;
+  border: 1.5px solid black;
 }
 
 .carousel_title{
