@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.465f71b5.css",
-    "main.js": "/portafolio/static/js/main.4369cd57.js",
+    "main.css": "/portafolio/static/css/main.ddb469a0.css",
+    "main.js": "/portafolio/static/js/main.53044f29.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/fondo.jpg": "/portafolio/static/media/fondo.c44ed04c57064dd1b4d5.jpg",
     "static/media/reverse.png": "/portafolio/static/media/reverse.cd0c9534f6ecfe194749.png",
+    "static/media/cmn.JPG": "/portafolio/static/media/cmn.a82f382cda93f1f96c72.JPG",
+    "static/media/cmv.JPG": "/portafolio/static/media/cmv.5d33ebb0510f5b387664.JPG",
     "static/media/4.JPG": "/portafolio/static/media/4.d161d00f60a4b4f5cea4.JPG",
+    "static/media/cma.JPG": "/portafolio/static/media/cma.16cc2345317cbd72d289.JPG",
     "static/media/3.JPG": "/portafolio/static/media/3.e3fa4231596078dc8964.JPG",
     "static/media/Carrito de compras.JPG": "/portafolio/static/media/Carrito de compras.5499a4b765e9b0360f1c.JPG",
     "static/media/2.JPG": "/portafolio/static/media/2.f4b859ec1480bc6f66ab.JPG",
     "static/media/PersonajesRickAndMorty.JPG": "/portafolio/static/media/PersonajesRickAndMorty.0542e57d78a1582231b9.JPG",
+    "static/media/gdt.JPG": "/portafolio/static/media/gdt.fd1b072a71e46b435e21.JPG",
+    "static/media/gdn.JPG": "/portafolio/static/media/gdn.acdd9bc1d1107cfb8617.JPG",
+    "static/media/gdv.JPG": "/portafolio/static/media/gdv.de4cb60fee258399eb6e.JPG",
+    "static/media/gdu.JPG": "/portafolio/static/media/gdu.7a1d43965e97d23f2441.JPG",
+    "static/media/home.JPG": "/portafolio/static/media/home.a82ea72026e35e578b86.JPG",
     "static/media/GDNREACT.JPG": "/portafolio/static/media/GDNREACT.e0de443d0b849faf05c8.JPG",
     "static/media/1.JPG": "/portafolio/static/media/1.713602a1d061a8502c1f.JPG",
+    "static/media/cdp.JPG": "/portafolio/static/media/cdp.71ed302699ef5d4af3ab.JPG",
+    "static/media/gda.JPG": "/portafolio/static/media/gda.75b6b52039a771cbd782.JPG",
     "static/media/GDNPHP.JPG": "/portafolio/static/media/GDNPHP.c92584e1357f149b5738.JPG",
     "static/media/GDI.JPG": "/portafolio/static/media/GDI.ad262c856cda906446e5.JPG",
     "static/media/roboto-all-500-normal.woff": "/portafolio/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/portafolio/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/portafolio/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
+    "static/media/home2.JPG": "/portafolio/static/media/home2.50e18cf2b0382fab01dd.JPG",
     "static/media/roboto-all-300-normal.woff": "/portafolio/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
     "static/media/ClonMinecraft.JPG": "/portafolio/static/media/ClonMinecraft.55b675696b0393b81b80.JPG",
     "static/media/Captura.JPG": "/portafolio/static/media/Captura.e0a5f09d29b5b0ecfbf6.JPG",
@@ -49,12 +60,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/portafolio/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/portafolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/portafolio/index.html",
-    "main.465f71b5.css.map": "/portafolio/static/css/main.465f71b5.css.map",
-    "main.4369cd57.js.map": "/portafolio/static/js/main.4369cd57.js.map",
+    "main.ddb469a0.css.map": "/portafolio/static/css/main.ddb469a0.css.map",
+    "main.53044f29.js.map": "/portafolio/static/js/main.53044f29.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.465f71b5.css",
-    "static/js/main.4369cd57.js"
+    "static/css/main.ddb469a0.css",
+    "static/js/main.53044f29.js"
   ]
 }
