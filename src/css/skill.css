@@ -67,6 +67,11 @@
     grid-template-columns: max-content;
     row-gap: 2rem;
   }
+
+  .skills{
+    margin-top: 18px;
+    margin-top: 0rem;
+  }
 }
 
 /* For medium devices */
@@ -77,6 +82,11 @@
 
   .skills_content{
     padding: 1.5rem;
+  }
+
+  .skills{
+    margin-top: 7%;
+
   }
 }
 
@@ -91,6 +101,7 @@
   }
 
   .skills{
-    margin-top: 100px;
+    margin-top: 18px;
+    margin-top: 18rem;
   }
 }

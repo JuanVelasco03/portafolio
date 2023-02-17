@@ -39,7 +39,7 @@ const Navbar = () => {
     <div className='navbar'>
 
       <button className='nav_button'  onClick={toggleMenu}>
-         <box-icon name='list-ul' color='#121010' ></box-icon>
+        <box-icon name='list-ul' color='#ffffff' className='nav_icon'></box-icon>
       </button>
 
       <nav className={`menu ${menuOpen ? 'isActive' : ''}`}>
@@ -54,8 +54,8 @@ const Navbar = () => {
       </nav>
 
       <ul className="list2 none">
-        <li className="white none"><a href="/#"><BsLinkedin className="icon"/></a></li>
-        <li className="white none"><a href="/#"><SiNetlify className="icon"/></a></li>
+        <a href="/#" className='white linkedin'><BsLinkedin className="icon"/></a>
+        <a href="/#" className='white'><SiNetlify className="icon"/></a>
       </ul>
     </div>
   );
