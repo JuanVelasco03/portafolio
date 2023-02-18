@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import '../css/navbar.css'
 import {BsLinkedin} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
 import {SiNetlify} from 'react-icons/si'
+
 
 
 const Navbar = () => {
@@ -54,8 +56,8 @@ const Navbar = () => {
       </nav>
 
       <ul className="list2 none">
-        <a href="/#" className='white linkedin'><BsLinkedin className="icon"/></a>
-        <a href="/#" className='white'><SiNetlify className="icon"/></a>
+        <a href="https://www.linkedin.com/in/juan-pablo-velasco-250307235/" className='white linkedin' target='_blank'><BsLinkedin className="icon"/></a>
+        <a href="https://github.com/JuanVelasco03" className='white' target='_blank'><BsGithub className="icon"/></a>
       </ul>
     </div>
   );

@@ -4,6 +4,7 @@ import Home from './Componenst/Home';
 import Aboutme from './Componenst/about/Aboutme';
 import Skills from './Componenst/skills/Skill';
 import Portfolio from './Componenst/portfolio/Portfolio';
+import Contact from './Componenst/contact/Contact';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
       </div>
       <div id='3'>
         <Portfolio/>
+      </div>
+      <div id='4'>
+        <Contact/>
       </div>
 
     </div>
