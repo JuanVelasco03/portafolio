@@ -55,7 +55,7 @@ const Navbar = () => {
       </nav>
 
       <ul className="list2 none">
-        <a href="https://www.linkedin.com/in/juan-pablo-velasco-250307235/" className='white linkedin' target='_blank'><BsLinkedin className="icon"/></a>
+        <a href="https://www.linkedin.com/in/jp-velasco/" className='white linkedin' target='_blank'><BsLinkedin className="icon"/></a>
         <a href="https://github.com/JuanVelasco03" className='white' target='_blank'><BsGithub className="icon"/></a>
       </ul>
     </div>
