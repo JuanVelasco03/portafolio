@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import '../css/navbar.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
-import {SiNetlify} from 'react-icons/si'
 
 
 
