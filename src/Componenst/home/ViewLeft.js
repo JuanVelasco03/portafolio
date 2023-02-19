@@ -13,7 +13,7 @@ const ViewLeft = () => {
             <div className="line gray"></div>
           </div>
           <div className="left parrafo-content">
-            <p className="parrafo">Soy un tecnólogo de análisis y desarrollo de sistemas de información con ánimo de convertirse en desarrollador full-stack.</p>
+            <p className="parrafo">Soy tecnólogo de análisis y desarrollo de sistemas de información con ánimo de convertirse en desarrollador full-stack.</p>
           </div>
         </div>
       </div>
